@@ -1,0 +1,69 @@
+* {
+	box-sizing: border-box; /* правильный размер блока с учетом всех отступов */
+	margin: 0; /* чтобы все элементы получили значение по умолчанию */
+	padding: 0;
+}
+.container {
+	width: 1140px;
+	/* ставить блочные элементы по центру */
+	margin: 0 auto;
+}
+
+/* работа с секцией промо */
+.promo {
+	height: 800px; /* ширина не указывается, так как она будет разной на разных утройствах */
+	/* первый значение это адрес img(".." нужно для выхода из папки css в отностительном пути)*/
+	/* 2-ое и 3-ье выравние по оси x и y; третье это растягивание картинки по ширине экрана */
+	background: url("../img/background/main_bg.png") center center/cover no-repeat;
+	padding: 39px 0 62px 0; /* внутренние отступы первый секции, чтобы в ручную не выставлять margin у каждого элемента по отдельности */
+}
+
+.logo .logo_img {
+	margin: 0 auto;
+	display: block; /* картинка строчно-блочный элемент */
+}
+
+.logo .logo_text {
+	font-family: "Roboto";
+	/* font-style: normal; */
+	font-weight: 500;
+	font-size: 15px;
+	/* line-height: 24px; */
+	color: #ffffff;
+	text-transform: uppercase;
+	text-align: center; /* центрирование */
+	margin-top: 14px;
+}
+
+h1 {
+	margin-top: 53px;
+}
+h2.title {
+	margin-top: 20.5px;
+}
+
+.title {
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 900;
+	font-size: 41px;
+	/* line-height: 24px; */
+	text-align: center;
+	text-transform: uppercase;
+
+	color: #f9bf3b;
+}
+
+.simple .title_big {
+	/* margin: 20.5px 3px 20.5px 3px; */
+
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 900;
+	font-size: 80px;
+	/* line-height: 24px; */
+	text-align: center;
+	text-transform: uppercase;
+
+	color: #ffffff;
+}
