@@ -15,7 +15,7 @@
 	/* первый значение это адрес img(".." нужно для выхода из папки css в отностительном пути)*/
 	/* 2-ое и 3-ье выравние по оси x и y; третье это растягивание картинки по ширине экрана */
 	background: url("../img/background/main_bg.png") center center/cover no-repeat;
-	padding: 39px 0 62px 0; /* внутренние отступы первый секции, чтобы в ручную не выставлять margin у каждого элемента по отдельности */
+	padding: 38px 0 62px 0; /* внутренние отступы первый секции, чтобы в ручную не выставлять margin у каждого элемента по отдельности */
 }
 
 .logo .logo_img {
@@ -28,18 +28,18 @@
 	/* font-style: normal; */
 	font-weight: 500;
 	font-size: 15px;
-	/* line-height: 24px; */
+	line-height: 24px;
 	color: #ffffff;
 	text-transform: uppercase;
 	text-align: center; /* центрирование */
-	margin-top: 14px;
+	margin-top: 10px;
 }
 
 h1 {
 	margin-top: 53px;
 }
 h2.title {
-	margin-top: 20.5px;
+	margin-top: 11px;
 }
 
 .title {
@@ -47,7 +47,7 @@ h2.title {
 	font-style: normal;
 	font-weight: 900;
 	font-size: 41px;
-	/* line-height: 24px; */
+	line-height: 41px;
 	text-align: center;
 	text-transform: uppercase;
 
@@ -56,12 +56,13 @@ h2.title {
 
 .simple .title_big {
 	/* margin: 20.5px 3px 20.5px 3px; */
+	margin-top: 9px;
 
 	font-family: "Roboto";
-	font-style: normal;
+	/* font-style: normal; */
 	font-weight: 900;
 	font-size: 80px;
-	/* line-height: 24px; */
+	line-height: 80px;
 	text-align: center;
 	text-transform: uppercase;
 
@@ -69,7 +70,7 @@ h2.title {
 }
 
 .promo .promo_text {
-	margin-top: 22.5px;
+	margin-top: 18px;
 	padding: 0 13px;
 	color: white;
 	font-family: "Roboto";
@@ -87,4 +88,46 @@ h2.title {
 	font-family: "Roboto-Bold";
 	color: #f9bf3b;
 	font-weight: 700;
+}
+
+.promo .promo_btn {
+	display: block;
+	margin: 0 auto;
+	margin-top: 68px;
+	width: 313px;
+	height: 72px;
+	background: linear-gradient(to top, #2798b9 0%, #3ab6da 100%);
+	border: 1px solid rgba(0, 0, 0, 0.23);
+	box-shadow: inset 0px 0px 0px rgba(0, 0, 0, 0.18);
+	font-family: "RobotoCondensed";
+	font-size: 21px;
+	line-height: 24px;
+	align-items: center;
+	text-align: center;
+	text-transform: uppercase;
+	color: #ffffff;
+	text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.22);
+	cursor: pointer; /* меняет курсор при наведении на кнопку */
+	outline: none; /* убирает обводку после нажатия на кнопку */
+}
+
+.more .more_text {
+	margin-top: 71px;
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 100;
+	font-size: 15px;
+	line-height: 24px;
+	/* identical to box height, or 160% */
+
+	/* display: flex; */
+	align-items: center;
+	text-align: center;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+.more .more_img {
+	display: block;
+	margin: 0 auto;
+	margin-top: 4px;
 }
