@@ -133,7 +133,7 @@ h2.title {
 }
 
 .waiting {
-	height: 607px;
+	min-height: 607px;
 	background: #efefef;
 	padding: 85px 0 75px 0;
 }
@@ -177,23 +177,20 @@ h2.title {
 	color: #4a4a4a;
 }
 .waiting .waiting_wrapper {
+	display: flex;
+	justify-content: space-between;
 	/* width: 384px; */
 	margin-top: 45px;
 }
 
 .waiting .waiting_wrapper .waiting_item {
 	width: 342px;
-	display: inline-block;
 	margin: 0 auto;
 	vertical-align: top;
 }
 
 .waiting .waiting_wrapper .waiting_item .waiting_img {
 	width: 100%;
-}
-.waiting .waiting_wrapper .waiting_item#second_img_in_waiting_section {
-	margin-right: 53px;
-	margin-left: 53px;
 }
 
 .waiting .waiting_wrapper .waiting_item .waiting_description {
@@ -206,7 +203,7 @@ h2.title {
 	/* or 140% */
 
 	/* display: flex; */
-	align-items: center;
+	/* align-items: center; */
 	text-align: center;
 
 	color: #4a4a4a;
