@@ -4,6 +4,7 @@
 	padding: 0;
 }
 .container {
+	position: relative; /* для абсолютного позиционирования */
 	width: 1140px;
 	/* ставить блочные элементы по центру */
 	margin: 0 auto;
@@ -207,4 +208,64 @@ h2.title {
 	text-align: center;
 
 	color: #4a4a4a;
+}
+
+.optimization {
+	min-height: 549px;
+	background: rgba(0, 0, 0, 0.0001);
+	padding-top: 108px;
+	padding-bottom: 72px;
+}
+
+.optimization .container .optimization_header {
+	margin-left: 391px;
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 900;
+	font-size: 28px;
+	line-height: 30px;
+	/* identical to box height, or 100% */
+	/* 
+display: flex;
+align-items: center; */
+	text-transform: uppercase;
+
+	color: #299cbd;
+}
+
+.optimization .container .optimization_text {
+	margin-top: 25px;
+	margin-left: 391px;
+
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 300;
+	font-size: 17px;
+	line-height: 27px;
+	/* or 159% */
+	/* 
+display: flex;
+align-items: center; */
+
+	color: #4a4a4a;
+}
+.optimization .container .optimization_text span {
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 17px;
+	line-height: 27px;
+	/* or 159% */
+
+	/* display: flex;
+	align-items: center; */
+
+	color: #4a4a4a;
+}
+
+.optimization .container .optimization_img {
+	position: absolute;
+	top: -61px;
+	left: -240px;
+	z-index: -1;
 }
