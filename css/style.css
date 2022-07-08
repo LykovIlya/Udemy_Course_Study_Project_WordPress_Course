@@ -139,7 +139,8 @@ h2.title {
 	padding: 85px 0 75px 0;
 }
 
-.waiting .waiting_header {
+.waiting .waiting_header,
+.finish_header {
 	font-family: "Roboto";
 	font-style: normal;
 	font-weight: 400;
@@ -155,7 +156,9 @@ h2.title {
 	color: #252525;
 }
 
-.waiting .hr_waiting {
+.hr_waiting,
+.finish .finish_hr {
+	border: none;
 	margin: 0 auto;
 	margin-top: 18px;
 	width: 217px;
@@ -268,4 +271,18 @@ align-items: center; */
 	top: -61px;
 	left: -240px;
 	z-index: -1;
+}
+
+.finish {
+	background: url("../img/background/second_bg.png") center center/cover
+		no-repeat;
+	min-height: 447px;
+	padding: 87px 0 68px 0;
+}
+
+.finish .container {
+}
+
+.finish_header {
+	color: #efefef;
 }
