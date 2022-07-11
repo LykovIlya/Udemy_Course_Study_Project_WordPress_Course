@@ -91,7 +91,8 @@ h2.title {
 	font-weight: 700;
 }
 
-.promo .promo_btn {
+.promo .promo_btn,
+.gift .gift_btn {
 	display: block;
 	margin: 0 auto;
 	margin-top: 68px;
@@ -330,4 +331,36 @@ align-items: center; */
 	text-align: center;
 
 	color: #efefef;
+}
+
+.gift {
+	background-color: #efefef;
+	min-height: 631px;
+	padding-top: 85px;
+	padding-bottom: 88px;
+}
+
+.gift .gift_img {
+	display: block;
+	margin: 0 auto;
+}
+
+.gift .gift_desc {
+	margin-top: 45px;
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 43px;
+	/* or 143% */
+
+	/* display: flex; */
+	align-items: center;
+	text-align: center;
+
+	color: #252525;
+}
+
+.gift .gift_btn {
+	margin-top: 51px;
 }
