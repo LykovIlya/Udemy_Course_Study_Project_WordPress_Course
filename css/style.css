@@ -364,3 +364,64 @@ align-items: center; */
 .gift .gift_btn {
 	margin-top: 51px;
 }
+
+.webinar {
+	background-color: #ffffff;
+	min-height: 512px;
+	padding-top: 89px;
+	padding-bottom: 50px;
+}
+
+.webinar .webinar_img {
+	display: block;
+	margin: 0 auto;
+}
+
+.webinar .webinar_desc {
+	margin-top: 36px;
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 30px;
+	/* identical to box height, or 100% */
+
+	/* display: flex; */
+	align-items: center;
+	text-align: center;
+	text-transform: uppercase;
+
+	color: #252525;
+}
+
+.webinar .webinar_date {
+	margin-top: 36px;
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 36px;
+	/* or 100% */
+
+	/* display: flex; */
+	align-items: center;
+	text-align: center;
+	text-transform: uppercase;
+
+	color: #299cbd;
+}
+.webinar p {
+	margin-top: 25px;
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 23px;
+	line-height: 20px;
+	/* identical to box height, or 87% */
+
+	/* display: flex; */
+	align-items: center;
+	text-align: center;
+
+	color: #4a4a4a;
+}
