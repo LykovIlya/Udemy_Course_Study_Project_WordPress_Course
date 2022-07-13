@@ -38,7 +38,7 @@
 }
 
 h1 {
-	margin-top: 53px;
+	margin: 53px 0 0 0;
 }
 h2.title {
 	margin-top: 11px;
@@ -484,5 +484,6 @@ footer p a:active {
 	/* color: #cdfeaa; */
 }
 .button_link {
+	width: 313px;
 	text-decoration: none;
 }
