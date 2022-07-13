@@ -111,6 +111,13 @@ h2.title {
 	text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.22);
 	cursor: pointer; /* меняет курсор при наведении на кнопку */
 	outline: none; /* убирает обводку после нажатия на кнопку */
+	border-radius: 4px 4px 4px 4px;
+}
+
+.promo .promo_btn:hover,
+.gift .gift_btn:hover {
+	background: #f9bf3b;
+	color: dimgray;
 }
 
 .more .more_text {
@@ -477,4 +484,8 @@ footer p a:hover {
 footer p a:active {
 	background: #f9bf3b;
 	/* color: #cdfeaa; */
+}
+
+.button_link {
+	text-decoration: none;
 }
