@@ -3,6 +3,7 @@
 	margin: 0; /* чтобы все элементы получили значение по умолчанию */
 	padding: 0;
 }
+
 .container {
 	position: relative; /* для абсолютного позиционирования */
 	width: 1140px;
@@ -86,7 +87,7 @@ h2.title {
 }
 
 .promo .promo_text span {
-	font-family: "Roboto-Bold";
+	font-family: "Roboto";
 	color: #f9bf3b;
 	font-weight: 700;
 }
@@ -101,7 +102,7 @@ h2.title {
 	background: linear-gradient(to top, #2798b9 0%, #3ab6da 100%);
 	border: 1px solid rgba(0, 0, 0, 0.23);
 	box-shadow: inset 0px 0px 0px rgba(0, 0, 0, 0.18);
-	font-family: "RobotoCondensed";
+	font-family: "Roboto";
 	font-size: 21px;
 	line-height: 24px;
 	align-items: center;
@@ -286,9 +287,6 @@ align-items: center; */
 		no-repeat;
 	min-height: 447px;
 	padding: 87px 0 68px 0;
-}
-
-.finish .container {
 }
 
 .finish_header {
@@ -485,7 +483,6 @@ footer p a:active {
 	background: #f9bf3b;
 	/* color: #cdfeaa; */
 }
-
 .button_link {
 	text-decoration: none;
 }
